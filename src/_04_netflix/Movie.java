@@ -37,7 +37,7 @@ public class Movie implements Comparable<Movie> {
 		return "\"" + title + "\" - " + stars + " stars";
 	}
 
-	/**
+	/**why did printing the call method line work instead oof just listing it outside of the syso printing line
 	 * 
 	 * @return The ticket price based on star rating
 	 */
