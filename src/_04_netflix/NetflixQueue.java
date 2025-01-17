@@ -52,6 +52,7 @@ public class NetflixQueue {
 		Collections.sort(movies);
 	}
 
+
 	/**
 	 * Prints all movies in the queue
 	 */
