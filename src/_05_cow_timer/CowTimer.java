@@ -43,11 +43,12 @@ public class CowTimer {
 //should I just delete InterruptedException so that when startTime is called in CowTimerRunner, it will actually print the 
   //  countdown numbers and not just 30?
     public void start() throws InterruptedException {
-        
+        for(int i = seconds; i >= 0; i --) {
     	
     	System.out.println(seconds);
     	seconds-=1;
         Thread.sleep(1000);
+    }
     }
 
     public void playSound(final String file) {
